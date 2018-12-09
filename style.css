@@ -1,0 +1,57 @@
+body {
+    font: 10px sans-serif;
+    position: relative;
+    margin: 0 auto;
+  }
+  rect {
+    stroke: white;
+    stroke-width: 2px;
+}
+  #myTreemap {
+    display: block;
+    margin: 0 auto;
+  }
+  .tile {
+    box-sizing: border-box;
+    position: absolute;
+    overflow: hidden;
+  }
+  .leaves {
+    box-sizing: border-box;
+    position: absolute;
+    overflow: hidden;
+  }
+ 
+  #tooltip {
+    position: absolute;
+    width: max-content;   
+    padding: 2px;
+    color: black;
+    font: 16px sans-serif;
+    background: rgb(176, 211, 78);
+    z-index: 1;
+    pointer-events: none;
+  }
+  /* selections for treemap to display */
+  #options{
+    display:flex;
+    justify-content: center;
+    margin-top: 20px;
+  }
+  #description {
+    text-align: center;
+    padding-bottom: 1.5rem;
+  }
+  #title {
+    text-align: center;
+    font-size: 45px;
+    margin-bottom: 10px;
+  }
+  #myLegend{
+    display: block;
+    margin: 0 auto;
+  }
+  .legends {
+    font-size: 15px;
+  }
+  
