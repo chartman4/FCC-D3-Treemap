@@ -1,7 +1,7 @@
 {
-    "name": "parcel-sandbox",
+    "name": "d3-treemap",
     "version": "1.0.0",
-    "description": "Simple Parcel Sandbox",
+    "description": "D3 Treemap for FreeCodeCamp Data Visualization Certificate",
     "main": "index.html",
     "scripts": {
         "start": "parcel index.html --open",
